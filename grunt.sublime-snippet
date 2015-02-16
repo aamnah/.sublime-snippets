@@ -3,40 +3,19 @@
   <description>Gruntfile.js Skeleton</description>
   <tabTrigger>grunt</tabTrigger>
   <content><![CDATA[
-    module.exports = function(grunt) {
+module.exports = function(grunt) {
 
-      // Configure task(s)
-      grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
+  // Configure task(s)
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
 
-      });
+  });
 
-      // Load the plugin(s)
-      grunt.loadNpmTasks( );
+  // Load the plugin(s)
+  grunt.loadNpmTasks( );
 
-      // Register task(s)
-      grunt.registerTask('default', [ ]);
-    };
-]]></content>
-</snippet>
-
-<snippet>
-  <description>Gruntfile.js Skeleton</description>
-  <tabTrigger>grunt</tabTrigger>
-  <content><![CDATA[
-    module.exports = function(grunt) {
-
-      // Configure task(s)
-      grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
-
-      });
-
-      // Load the plugin(s)
-      grunt.loadNpmTasks( );
-
-      // Register task(s)
-      grunt.registerTask('default', [ ]);
-    };
+  // Register task(s)
+  grunt.registerTask('default', [ ]);
+};
 ]]></content>
 </snippet>
