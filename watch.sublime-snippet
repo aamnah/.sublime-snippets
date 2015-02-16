@@ -1,0 +1,17 @@
+
+<snippet>
+  <description>Run predefined tasks whenever watched file patterns are added, changed or deleted</description>
+  <tabTrigger>watch</tabTrigger>
+  <content><![CDATA[
+    watch: {
+      scripts: {
+        files: ['**/*.js'],
+        tasks: ['jshint'],
+        options: {
+          spawn: false,
+        },
+      },
+    },
+]]></content>
+</snippet>
+

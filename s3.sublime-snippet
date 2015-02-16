@@ -1,0 +1,21 @@
+
+<snippet>
+  <description>https://github.com/jpillora/grunt-aws</description>
+  <tabTrigger>s3</tabTrigger>
+  <content><![CDATA[
+    aws: grunt.file.readJSON('credentials.json'),
+    s3: {
+    // upload all files inside build/ into my-awesome-bucket:
+      options: {
+        accessKeyId: '<%= aws.accessKeyId %>',
+        secretAccessKey: '<%= aws.secretAccessKey %>',
+        bucket: 'my-awesome-bucket'
+      },
+      build: {
+        cwd: 'build/',
+        src: '**''
+      }
+    },
+]]></content>
+</snippet>
+

@@ -1,0 +1,16 @@
+
+<snippet>
+  <description>Minify files with UglifyJS</description>
+  <tabTrigger>uglify</tabTrigger>
+  <content><![CDATA[
+    uglify: {
+      // Basic compression
+      my_target: {
+        files: {
+          'dest/output.min.js': ['src/input1.js', 'src/input2.js']
+        }
+      }
+    },
+]]></content>
+</snippet>
+

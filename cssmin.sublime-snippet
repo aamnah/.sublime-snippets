@@ -1,0 +1,33 @@
+
+<snippet>
+  <description>Minify CSS</description>
+  <tabTrigger>cssmin</tabTrigger>
+  <content><![CDATA[
+    cssmin: {
+    // Combine two files into one output file
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
+      target: {
+        files: {
+          'output.css': ['foo.css', 'bar.css']
+        }
+      }
+    },
+
+    cssmin: {
+    // Minify all contents of a release directory and add a .min.css extension
+      target: {
+        files: [{
+          expand: true,
+          cwd: 'release/css',
+          src: ['*.css', '!*.min.css'],
+          dest: 'release/css',
+          ext: '.min.css'
+        }]
+      }
+    },
+]]></content>
+</snippet>
+
