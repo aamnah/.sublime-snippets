@@ -6,7 +6,7 @@
 <modification>
     <id>$1</id>
     <version>$2</version>
-    <author>$3</author>
+    <authorAamnah.com</author>
     <file name="$4">
         <operation>
             <search position="$5">
