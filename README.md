@@ -1,8 +1,6 @@
 # .sublime-snippets
 Sublime Text snippets for random stuff i need (grunt, vqmod, ocmod etc.)
 
-
-<<<<<<< HEAD
 bootstrapcdn
 ---
     <!DOCTYPE html>
@@ -31,23 +29,6 @@ bootstrapcdn
 
       </body>
     </html>
-
-grunt
----
-    module.exports = function(grunt) {
-
-      // Configure task(s)
-      grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
-
-      });
-
-      // Load the plugin(s)
-      grunt.loadNpmTasks( );
-
-      // Register task(s)
-      grunt.registerTask('default', [ ]);
-    };
 
 vqmod
 ---
@@ -90,4 +71,21 @@ Had to omit the CDATA tags within **search** and **add**. You can not add a CDAT
                 </add>
             </operation>
         </file>
-    </m
+    </modification>
+
+grunt
+---
+    module.exports = function(grunt) {
+
+      // Configure task(s)
+      grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+
+      });
+
+      // Load the plugin(s)
+      grunt.loadNpmTasks( );
+
+      // Register task(s)
+      grunt.registerTask('default', [ ]);
+    };
