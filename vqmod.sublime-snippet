@@ -4,19 +4,19 @@
   <content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
 <modification>
-    <id>$1</id>
-    <version>$2</version>
-    <authorAamnah.com</author>
-    <file name="$4">
-        <operation>
-            <search position="$5">
-              $6
-            </search>
-            <add>
-              $7
-            </add>
-        </operation>
-    </file>
+  <id>$1</id>
+  <version>$2</version>
+  <author>Aamnah.com</author>
+  <file name="$4">
+    <operation>
+        <search position="$5">
+          $6
+        </search>
+        <add>
+          $7
+        </add>
+    </operation>
+  </file>
 </modification>
 ]]></content>
 </snippet>
