@@ -10,7 +10,7 @@
   <author>Aamnah.com</author>
   <link>http://aamnah.com</link>
   <file path="$4">
-    <operation>
+    <operation error="log">
       <search>
         $5
       </search>
