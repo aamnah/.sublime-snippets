@@ -1,6 +1,18 @@
 # .sublime-snippets
 Sublime Text snippets for random stuff i need (grunt, bootstrap, vqmod, ocmod etc.)
 
+To create a new snippet, select **Tools > New Snippet…**. Sublime Text will present you with an skeleton for a new snippet.
+
+Snippets can be stored under any package’s folder, but to keep it simple while you’re learning, you can save them to your **Packages/User** folder.
+
+Mac: ~/Library/Application Support/Sublime Text 3/Packages/User
+
+They are simplified XML files with the extension `.sublime-snippet`.
+
+[Read More](http://sublimetext.info/docs/en/extensibility/snippets.html)
+
+
+
 bootstrapcdn
 ---
     <!DOCTYPE html>
