@@ -1,5 +1,5 @@
 <snippet>
-  <description>https://github.com/opencart/opencart/wiki/Modification-System</description>
+  <description>OCMOD</description>
   <tabTrigger>ocmod</tabTrigger>
   <content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
