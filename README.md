@@ -1,10 +1,11 @@
 # .sublime-snippets
 
 ```
-UPDATE: I have switched to Brackets as my main code editor and the [Brackets Snippets](https://github.com/chuyik/brackets-snippets) extension is way better. It has a more user-friendly and easily accessble snippets manager (which also allows `<[CDATA[ ]]>` tags in snippets, unlike Sublime).
-
-This repo is going to get obsolete.
+NOTE: This repo is going to get obsolete.
 ```
+_I have switched to Brackets as my main code editor and the [Brackets Snippets](https://github.com/chuyik/brackets-snippets) extension is way better. It has a more user-friendly and easily accessble snippets manager (which also allows `<[CDATA[ ]]>` tags in snippets, unlike Sublime)._
+
+
 Sublime Text snippets for random stuff i need (grunt, bootstrap, vqmod, ocmod etc.)
 
 To create a new snippet, select **Tools > New Snippet…**. Sublime Text will present you with an skeleton for a new snippet.
